@@ -1,0 +1,29 @@
+SASS and LESS are two most popular CSS Pre-processors.
+SASS comes from Syntactically Awesome Style Sheets while LESS means Leaner Style Sheets
+SASS is written in Ruby LESS in Javascript
+Both prep-processors fas features lile  variables, mixins and funtions.
+variables in Less are defined with "@" and in Sass with "$"
+           
+SASS mixin example:                            |     LESS mixin example :
+     - @mixin myMixin { background: red}       |        - .myMixin { background : red}
+     - in order to use the mixin in is         |        -  Less handles execution of the mixin in a 
+       necessary to import it with             |           slighly different way ".myMixin()"
+       "@import myMixin"
+
+The genuine contrasts are found rather in the logical functions:
+- LESS uses JavaScript to manipulate values, offers clients the chance to possibly enact or activate Mixins 
+when explicit circumstances occur.   
+
+- SASS empowers you to make your own capacity and use them with the setting client needs.
+ We can call functions by utilizing the function name with parameters.SASS offers loops and case differentiations 
+
+Errors
+-LESS has more exact error messages altogether tests, and it additionally clarifies the right area 
+where a mistake has happened. 
+-SASS can report errors in syntax in its structure.
+
+Documentation
+-The LESS documentation is visually appealing and easier to follow for first-time/ newbie users.
+-The SASS documentation requires either substantially more of base information, 
+or successive cross-references with a wiki’s during setup.  
+
