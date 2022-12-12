@@ -1,0 +1,27 @@
+.composition {
+    position: relative;
+    &__photo {
+        width: 50%;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+        position: absolute;
+        z-index: 10;
+        transition: all 0.2s;
+
+        &--p1 {
+            top: -2rem;
+            left: 0;
+        }
+        &--p2 {
+            top: 1rem;
+            right: 10rem;
+        }
+        &--p3 {
+            top: 60px;
+            left: 20%;
+        }
+        &:hover {
+            z-index: 20;
+            transform: scale(1.2) translateX(30px);
+        }
+    }
+}
